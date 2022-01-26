@@ -15,10 +15,10 @@ CURSOS LINK 👇
 | 02  | [Social Media Icons-2](https://github.com/johnpires/04-social-media-icons/tree/main/Social-Media-Icons-02)      | Clique aqui |
 | 03  | [Social Media Icons-3](https://github.com/johnpires/04-social-media-icons/tree/main/Social-Media-Icons-03)      | Clique aqui |
 | 04  | [Social Media Icons-4](https://github.com/johnpires/04-social-media-icons/tree/main/Social-Media-Icons-04)      | Clique aqui |
-| 05  | [Social Media Icons-5]()      | Clique aqui |
-| 06  | [Social Media Icons-6]()      | Clique aqui |
-| 07  | [Social Media Icons-7]()      | Clique aqui |
-| 08  | [Social Media Icons-8]()      | Clique aqui |
+| 05  | [Social Media Icons-5](https://github.com/johnpires/04-social-media-icons/tree/main/Social-Media-Icons-05)      | Clique aqui |
+| 06  | [Social Media Icons-6](https://github.com/johnpires/04-social-media-icons/tree/main/Social-Media-Icons-06)      | Clique aqui |
+| 07  | [Social Media Icons-7](https://github.com/johnpires/04-social-media-icons/tree/main/Social-Media-Icons-07)      | Clique aqui |
+| 08  | [Social Media Icons-8](https://github.com/johnpires/04-social-media-icons/tree/main/Social-Media-Icons-08)      | Clique aqui |
 | 09  | [Social Media Icons-9]()      | Clique aqui |
 | 10  | [Social Media Icons-10]()      | Clique aqui |
 
