@@ -1,0 +1,174 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.social-icons {
+    display: flex;
+}
+
+.social-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 80px;
+    height: 80px;
+    margin: 0 0.5rem;
+    border-radius: 50%;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5rem;
+    text-decoration: none;
+    transition: all 0.15s ease;
+}
+
+.social-icon:hover {
+    color: #FFF;
+}
+
+.social-icon:hover .tooltip {
+    visibility: visible;
+    opacity: 1;
+    transform: translate(-50%, -150%);
+}
+
+.social-icon:active {
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.5) inset;
+}
+
+.social-icon--linkedin {
+    background: #006599;
+    color: #FFF;
+}
+
+.social-icon--linkedin .tooltip {
+    background: #006599;
+    color: currentColor;
+}
+
+.social-icon--linkedin .tooltip::after {
+    background: #006599;
+}
+
+.social-icon--twitter {
+    background: #2b97f1;
+    color: #FFF;
+}
+
+.social-icon--twitter .tooltip {
+    background: #2b97f1;
+    color: currentColor;
+}
+
+.social-icon--twitter .tooltip::after {
+    background: #2b97f1;
+}
+
+.social-icon--codepen {
+    background: #000;
+    color: #FFF;
+}
+
+.social-icon--codepen .tooltip {
+    background: #000;
+    color: currentColor;
+}
+
+.social-icon--codepen .tooltip::after {
+    background: #000;
+}
+
+.social-icon--facebook {
+    background: #3b5a9b;
+    color: #FFF;
+}
+
+.social-icon--facebook .tooltip {
+    background: #3b5a9b;
+    color: currentColor;
+}
+
+.social-icon--facebook .tooltip::after {
+    background: #3b5a9b;
+}
+
+.social-icon--instagram {
+    background: #527fa6;
+    color: #FFF;
+}
+
+.social-icon--instagram .tooltip {
+    background: #527fa6;
+    color: currentColor;
+}
+
+.social-icon--instagram .tooltip::after {
+    background: #527fa6;
+}
+
+.social-icon--dribbble {
+    background: #ef5a92;
+    color: #FFF;
+}
+
+.social-icon--dribbble .tooltip {
+    background: #ef5a92;
+    color: currentColor;
+}
+
+.social-icon--dribbble .tooltip::after {
+    background: #ef5a92;
+}
+
+.social-icon--github {
+    background: #4284c0;
+    color: #FFF;
+}
+
+.social-icon--github .tooltip {
+    background: #4284c0;
+    color: currentColor;
+}
+
+.social-icon--github .tooltip::after {
+    background: #4284c0;
+}
+
+.social-icon i {
+    position: relative;
+    top: 1px;
+}
+
+.tooltip {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    padding: 0.8rem 1rem;
+    border-radius: 40px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    opacity: 0;
+    pointer-events: none;
+    text-transform: uppercase;
+    transform: translate(-50%, -100%);
+    transition: all 0.3s ease;
+    z-index: 1;
+}
+
+.tooltip::after {
+    display: block;
+    position: absolute;
+    bottom: 1px;
+    left: 50%;
+    width: 0;
+    height: 0;
+    content: "";
+    border: solid;
+    border-width: 10px 10px 0 10px;
+    border-color: transparent;
+    transform: translate(-50%, 100%);
+}
